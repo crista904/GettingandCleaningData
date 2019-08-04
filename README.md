@@ -12,6 +12,7 @@ I have created an R script called run_analysis.R that does the following:
   - Create a list of all column names
   - Extract all columns that contain mean and std using grepl()
 3. Uses descriptive activity names to name the activities in the data set
+  - Match activity ID number with the descriptive activity from the activity_labels.txt file
 4. Appropriately labels the data set with descriptive variable names.
   - Use gsub() to change names
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
