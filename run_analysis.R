@@ -2,7 +2,7 @@
 
 #Set working directory
 
-setwd("~/Documents/Continued Learning/R/Gettingandcleaning/UCI HAR Dataset")
+setwd("filepathhere")
 
 #Import all data and label columns
 #Note: Column names must match for rbind later
